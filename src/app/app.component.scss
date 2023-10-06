@@ -1,0 +1,129 @@
+// .hamburger{
+
+//     display: none;
+// }
+
+// .nav-bar ul{
+//     display: flex;
+//     gap: 60px;
+//     align-items: center;
+//     margin-right: 50px;
+// }
+
+// .nav-bar ul li a{
+//     display: block;
+//     color: aliceblue;
+//     font-size: 20px;
+//     padding: 10px 25px;
+//     border-radius: 40px;
+//     transition: 0.2s;
+//     margin: 0 5px;
+// }
+
+.nav-bar ul li a:hover{
+    color: yellow;
+ 
+}
+
+// .nav-bar ul li a.active{
+//     color: black;
+//     background-color: white;
+// }
+
+// .nav_bar{
+
+//     position: absolute;
+//     top:80px;
+//     left: 0;
+//     right: 0;
+//     width: 100vw;
+//     background-color: black;
+//     transition: 0.2s;
+// }
+
+// .nav-bar .active{
+//     height: 350px;
+
+// }
+
+// .nav_bar ul{
+//     display: block;
+//     width: fit-content;
+//     margin: 80px auto 0 auto;
+//     text-align: center;
+//     transition: 0.5s;
+// }
+
+
+
+// @media screen and (max-width:900px){
+//     .hamburger{
+//         display: block;
+//         cursor: pointer;
+//     }
+
+//     .hamburger .line{
+//         width: 30px;
+//         height: 3px;
+//         background-color: black;
+//         margin: 6px 0;
+//     }
+//     .nav-bar{
+
+//         position: absolute;
+//         top: 80px;
+//         left: 0;
+//         right: 0;
+//         width: 100vw;
+//        background-color: black;
+//         transition: 0.2s;
+//         overflow: hidden;
+
+//     }
+//     .nav-bar ul{
+//         display: block;
+//         width: fit-content;
+//         margin: 80px auto 0 auto;
+//         text-align: center;
+//         transition: 0.5s;
+//         opacity: 0;
+//     }
+//     .nav-bar ul li a{
+//         margin-bottom: 12px;
+
+//     }
+// }
+
+// @media screen and (min-width:760px){
+//     .app{
+//         width: 100%;
+//         height: auto;
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
+
+
+@media screen and (min-width:300px){
+    .app{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:760px){
+    .app{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
